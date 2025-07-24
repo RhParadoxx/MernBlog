@@ -7,11 +7,7 @@ import { FaEdit, FaRegEdit } from "react-icons/fa";
 const Sidebar = () => {
   return (
     <div className='hidden mt-10 fixed md:block border-r-2 dark:bg-gray-800 bg-white border-gray-300 dark:border-gray-600 0 w-[250px]  space-y-2 h-screen z-10'>
-      {/* <h1 className='text-xl font-semibold text-gray-700 cursor-pointer hover:bg-gray-800 p-2 text-center rounded-md hover:text-white'>Your Blogs</h1> */}
-      {/* <h2 className='text-xl font-semibold cursor-pointer'>Comments</h2> */}
-      {/* <h1 className='text-xl font-semibold cursor-pointer hover:bg-gray-800 p-2 text-center rounded-md hover:text-white'>Write a Blog</h1>
-      <h1 className='text-xl font-semibold cursor-pointer hover:bg-gray-800 p-2 text-center rounded-md hover:text-white'>Profile</h1> */}
-
+     
       <div className='text-center pt-10 px-3 space-y-2'>
         <NavLink
           to='/dashboard/profile'

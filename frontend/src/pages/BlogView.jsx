@@ -7,15 +7,14 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "../components/ui/breadcrumb";
+} from "../Components/ui/breadcrumb";
 import { Link, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { Avatar, AvatarFallback, AvatarImage } from "../components/ui/avatar";
-import { Card, CardContent } from "../components/ui/card";
-import { Button } from "../components/ui/button";
-import { Badge } from "../components/ui/badge";
+import { Avatar, AvatarFallback, AvatarImage } from "../Components/ui/avatar";
+import { Button } from "../Components/ui/button";
+import { Badge } from "../Components/ui/badge";
 import { Bookmark, Heart, MessageSquare, Share2 } from "lucide-react";
-import CommentBox from "../components/CommentBox";
+import CommentBox from "../Components/CommentBox";
 import axios from "axios";
 import { FaHeart, FaRegHeart } from "react-icons/fa6";
 import { setBlog } from "../redux/blogSlice";

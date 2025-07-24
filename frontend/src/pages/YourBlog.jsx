@@ -1,4 +1,4 @@
-import { Card } from "../components/ui/card";
+import { Card } from "../Components/ui/card";
 import React, { useEffect } from "react";
 import {
   Table,
@@ -8,7 +8,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "../components/ui/table";
+} from "../Components/ui/table";
 
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
@@ -22,7 +22,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "../components/ui/dropdown-menu";
+} from "../Components/ui/dropdown-menu";
 
 const YourBlog = () => {
   const navigate = useNavigate();

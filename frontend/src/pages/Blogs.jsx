@@ -1,4 +1,4 @@
-import BlogCard from "../components/BlogCard";
+import BlogCard from "../Components/BlogCard";
 import React, { useEffect } from "react";
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";

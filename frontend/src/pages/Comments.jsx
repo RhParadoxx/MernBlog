@@ -1,4 +1,4 @@
-import { Card } from "../components/ui/card";
+import { Card } from "../Components/ui/card";
 import {
   Table,
   TableBody,
@@ -7,7 +7,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "../components/ui/table";
+} from "../Components/ui/table";
 import axios from "axios";
 import { Edit, Eye, Trash2 } from "lucide-react";
 import React, { useEffect, useState } from "react";

@@ -16,7 +16,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "../components/ui/dropdown-menu";
+} from "../Components/ui/dropdown-menu";
 
 const CommentBox = ({ selectedBlog }) => {
   const { user } = useSelector((store) => store.auth);

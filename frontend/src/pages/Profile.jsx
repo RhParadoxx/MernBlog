@@ -1,10 +1,10 @@
-import { Avatar, AvatarImage } from "../components/ui/avatar";
-import { Card } from "../components/ui/card";
+import { Avatar, AvatarImage } from "../Components/ui/avatar";
+import { Card } from "../Components/ui/card";
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import userLogo from "../assets/user.jpg";
 import { FaFacebook, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
-import { Label } from "../components/ui/label";
+import { Label } from "../Components/ui/label";
 import {
   Dialog,
   DialogContent,
@@ -12,16 +12,16 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from "../components/ui/dialog";
-import { Button } from "../components/ui/button";
-import { Input } from "../components/ui/input";
+} from "../Components/ui/dialog";
+import { Button } from "../Components/ui/button";
+import { Input } from "../Components/ui/input";
 import { Link, useNavigate } from "react-router-dom";
-import { Textarea } from "../components/ui/textarea";
+import { Textarea } from "../Components/ui/textarea";
 import axios from "axios";
 import { Loader2 } from "lucide-react";
 import { toast } from "sonner";
 import { setUser } from "../redux/authSlice";
-import TotalProperty from "../components/TotalProperty";
+import TotalProperty from "../Components/TotalProperty";
 
 const Profile = () => {
   //  dialog
